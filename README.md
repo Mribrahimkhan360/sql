@@ -27,13 +27,13 @@ Introduction to SQL - 01:43 <br>
 01:13:04  SELECT Command in Detail<br>
 01:15:10  Where Clause <br>
 01:21:19  Operators<br>
+01:25:21  Limit Clause<br>
+01:26:48  Order By Clause<br>
 
 <hr width="100">
 <img src="https://cdns.iconmonstr.com/wp-content/releases/preview/2018/240/iconmonstr-play-thin.png" height="40">
 <hr width="100">
 
-01:25:21  Limit Clause<br>
-01:26:48  Order By Clause<br>
 01:29:12  Aggregate Functions<br>
 01:32:33  Group By Clause<br>
 01:37:51  Practice Questions<br>
