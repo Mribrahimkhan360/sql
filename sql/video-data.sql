@@ -108,3 +108,18 @@ INSERT INTO student
 (104, "dhruv", 96, "A", "Delhi"), 
 (105, "emanuel", 12, "F", "Delhi"), 
 (106, "farah", 82, "B", "Delhi");
+
+SELECT * FROM student;
+
+USE college;
+SELECT * FROM student WHERE marks> 80;
+
+SELECT * FROM student WHERE city="Mumbai";
+
+SELECT * FROM student WHERE marks+10>100;
+
+SELECT * FROM student WHERE marks=93;
+
+SELECT * FROM student WHERE marks>90;
+
+SELECT * FROM student WHERE marks>90 AND city="Mumbai";
