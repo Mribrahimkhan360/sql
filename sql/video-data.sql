@@ -923,3 +923,13 @@ HAVING MAX(mark)<90
 ORDER BY city ASC;
 
 
+
+
+USE databaseName;
+SELECT s.name AS subcategory_name,
+       ss.name AS sub_subcategory_name,
+       COUNT(*) AS duplicate_count
+FROM sub_subcategories AS ss
+JOIN subcategories AS s ON ss.subcategory_id = s.id
+GROUP BY s.name, ss.name
+HAVING COUNT(*) > 1;
